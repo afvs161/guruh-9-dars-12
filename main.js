@@ -9,9 +9,7 @@ btns.forEach((btn) => {
 			input.value = input.value.slice(0, -1)
 		} else if (e.target.textContent === "=") {
 			input.value = eval(input.value).toFixed(2)
-		} else {
-			input.value += e.target.textContent
-		}
+		} 
 	})
 })
 
