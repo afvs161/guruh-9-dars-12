@@ -14,3 +14,6 @@ btns.forEach((btn) => {
 		}
 	})
 })
+
+console.log('yangi commit');
+// salom yangilik
